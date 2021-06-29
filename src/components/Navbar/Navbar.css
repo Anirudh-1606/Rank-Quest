@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 15px 0px;
+}
+.header__icon {
+  object-fit: contain;
+
+  margin-left: 80px;
+}
+.header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+
+  height: 25px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+.header__center > input {
+  border: none;
+  width: 250px;
+  padding: 10px;
+  outline-width: 0;
+}
+.header__right ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14vw;
+  list-style-type: none;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  width: 23vw;
+  justify-content: space-evenly;
+  margin-right: 80px;
+}
+.header__right ul li {
+  font-weight: 500;
+  padding-left: 20px;
+}
+.header__right ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+.header__right > button {
+  background-color: red;
+  color: white;
+  text-transform: inherit;
+  font-weight: bold;
+  box-shadow: none;
+  padding: 10px;
+  width: 90px;
+}
+
+.header__right > button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: none;
+}

@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin-left: 80px;
+}
+.radio__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.form-btn {
+  width: 100%;
+}

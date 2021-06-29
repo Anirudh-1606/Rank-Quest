@@ -1,0 +1,43 @@
+.card {
+  margin: 10px;
+  width: 400px;
+  height: 525px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.card > img {
+  object-fit: fill;
+  min-width: 250px;
+  min-height: 150px;
+  cursor: default;
+  width: 100%;
+  background-position: center;
+}
+.card > Button {
+  width: 70%;
+  text-transform: inherit;
+  text-decoration: none;
+}
+.card .info {
+  margin: 10px;
+  text-align: center;
+}
+.info h3 {
+  color: red;
+  cursor: default;
+}
+.info p {
+  cursor: default;
+}
+.info > button {
+  margin-top: 10px;
+  text-transform: inherit;
+}
+.card:hover {
+  transform: scale(1.08);
+}

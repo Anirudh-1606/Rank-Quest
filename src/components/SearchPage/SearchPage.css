@@ -1,0 +1,29 @@
+.background {
+  background-color: #fafafa;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 70%;
+  margin: 30px auto 0px auto;
+  background-color: white;
+  height: inherit;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.container h2 {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.form__info img {
+  margin-top: 60px;
+  height: 500px;
+  width: 550;
+  margin-left: 30px;
+}
+.form__info {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 15px;
+}

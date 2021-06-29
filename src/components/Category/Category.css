@@ -1,0 +1,14 @@
+.head {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.section {
+  margin: 50px;
+  display: flex;
+  margin: 15px auto;
+  width: 85%;
+  align-items: center;
+  justify-content: space-between;
+}

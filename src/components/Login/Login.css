@@ -1,0 +1,64 @@
+.input-form {
+  width: 40%;
+  height: 430px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfe7ff;
+  padding-top: 50px;
+  border-radius: 15px;
+}
+form {
+  margin-left: 0;
+  width: 80%;
+  margin: 0;
+  padding-left: 52px;
+}
+.input-form h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  outline-width: 0;
+  border: none;
+}
+button {
+  margin: 10px auto;
+  width: 90px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline-width: 0;
+  border: none;
+  color: white;
+  background-color: #ff0000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: none;
+}
+.login-form img {
+  width: 600px;
+}
+.login-form {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

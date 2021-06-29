@@ -1,0 +1,35 @@
+.background__ {
+  height: 95vh;
+  background-color: #fafafa;
+  width: 100%;
+  overflow: hidden;
+}
+.container__ {
+  width: 70%;
+  margin: 30px auto 0px auto;
+  background-color: white;
+  height: 86vh;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.check__info {
+  margin-top: 20px;
+}
+.check__info li {
+  padding-right: 30px;
+  margin-top: 10px;
+  line-height: 2em;
+  align-items: center;
+  list-style-type: none;
+  font-weight: bold;
+}
+.check__info h1 {
+  color: #ff4b5c;
+  font-weight: 900;
+}
+.check__info p {
+  color: gray;
+  font-weight: bold;
+}
