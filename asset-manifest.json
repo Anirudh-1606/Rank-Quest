@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rank-Quest/static/css/main.5dc2b8aa.chunk.css",
+    "main.js": "/Rank-Quest/static/js/main.f525562c.chunk.js",
+    "main.js.map": "/Rank-Quest/static/js/main.f525562c.chunk.js.map",
+    "runtime-main.js": "/Rank-Quest/static/js/runtime-main.df0d1169.js",
+    "runtime-main.js.map": "/Rank-Quest/static/js/runtime-main.df0d1169.js.map",
+    "static/js/2.ceb40bfd.chunk.js": "/Rank-Quest/static/js/2.ceb40bfd.chunk.js",
+    "static/js/2.ceb40bfd.chunk.js.map": "/Rank-Quest/static/js/2.ceb40bfd.chunk.js.map",
+    "static/js/3.91889d2c.chunk.js": "/Rank-Quest/static/js/3.91889d2c.chunk.js",
+    "static/js/3.91889d2c.chunk.js.map": "/Rank-Quest/static/js/3.91889d2c.chunk.js.map",
+    "index.html": "/Rank-Quest/index.html",
+    "static/css/main.5dc2b8aa.chunk.css.map": "/Rank-Quest/static/css/main.5dc2b8aa.chunk.css.map",
+    "static/js/2.ceb40bfd.chunk.js.LICENSE.txt": "/Rank-Quest/static/js/2.ceb40bfd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df0d1169.js",
+    "static/js/2.ceb40bfd.chunk.js",
+    "static/css/main.5dc2b8aa.chunk.css",
+    "static/js/main.f525562c.chunk.js"
+  ]
+}
