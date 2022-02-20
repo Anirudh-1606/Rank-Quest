@@ -47,6 +47,10 @@ const caste = [
     label: "BC-D",
   },
   {
+    value: "BC_E",
+    label: "BC-E",
+  },
+  {
     value: "SC",
     label: "SC",
   },
@@ -84,7 +88,7 @@ const branches = [
     label: "Electronics Communication Engineering,",
   },
   {
-    value: "IT",
+    value: "INF",
     label: "Information Technology",
   },
   {

@@ -6,6 +6,10 @@ import SearchPage from "./components/SearchPage/SearchPage";
 import Checklist from "./components/Checklist/Checklist";
 import Login from "./components/Login/Login";
 import Result from "./components/Result/Result";
+import Colleges from "./components/Colleges/Colleges";
+import CollegeDetails from "./components/CollegeDetails/CollegeDetails";
+import Footer from "./components/Footer/Footer";
+import { VerificationProvider } from "./components/context/VerificationContext";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,13 +19,22 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/Login">
-            <Login />
+            <VerificationProvider>
+              <Login />
+            </VerificationProvider>
           </Route>
+
           <Route path="/search">
-            <SearchPage />
+            <VerificationProvider>
+              <SearchPage />
+            </VerificationProvider>
           </Route>
+
           <Route path="/result">
             <Result />
+          </Route>
+          <Route path="/colleges">
+            <Colleges />
           </Route>
           <Route exact path="/">
             <Banner />
@@ -30,7 +43,11 @@ function App() {
           <Route path="/checklist">
             <Checklist />
           </Route>
+          <Route path="/collegedetails">
+            <CollegeDetails />
+          </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

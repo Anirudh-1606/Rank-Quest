@@ -1,0 +1,79 @@
+.college_det_background {
+  background-color: #f0f8ff;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.college_container {
+  height: auto;
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px;
+}
+.college_basic_info img {
+  width: 500px;
+  height: auto;
+}
+.college_basic_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.college_basic_details {
+  padding-top: 20px;
+}
+
+.college_basic_details h1 {
+  color: red;
+}
+.college_basic_details p {
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.college_container_2 {
+  height: auto;
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 10px;
+  /* background-color: white;
+  border-radius: 15px; */
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.college_container_2 .box-1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.college_container_2 .box-2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.college_container_2 .box-3 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.college_container_2 p {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.college_container_2 .box-1 p {
+  padding-left: 20px;
+}
+.college_container_2 .box-2 p {
+  padding-left: 30px;
+}
+.college_container_2 .box-3 p {
+  padding-left: 30px;
+}
+.college_container_2 h2 {
+  padding-top: 10px;
+  color: red;
+}

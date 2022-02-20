@@ -41,3 +41,18 @@
 .card:hover {
   transform: scale(1.08);
 }
+.button {
+  background-color: red;
+  color: white;
+  text-transform: inherit;
+  font-weight: bold;
+  box-shadow: none;
+  padding: 10px;
+  width: 90px;
+}
+
+.button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: none;
+}

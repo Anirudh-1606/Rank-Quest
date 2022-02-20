@@ -1,9 +1,11 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { VerificationContext } from "../context/VerificationContext";
 import "../SearchPage/SearchPage.css";
 import Form from "./Form/Form";
+import { Redirect } from "react-router-dom";
 
 const SearchPage = () => {
+  const [verified] = useContext(VerificationContext);
   return (
     <div className="background">
       <div className="container">
@@ -14,6 +16,7 @@ const SearchPage = () => {
             alt=""
           />
           <Form />
+          {!verified && <Redirect to="/login" />}
         </div>
       </div>
     </div>

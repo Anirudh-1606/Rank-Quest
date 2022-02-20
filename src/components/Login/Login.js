@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import firebase from "../firebase";
 import "./Login.css";
+import { Redirect } from "react-router-dom";
+import { VerificationContext } from "../context/VerificationContext";
 
 const Login = () => {
   const [number, setNumber] = useState();
   const [otp, setOtp] = useState();
-  const [verified, setVerified] = useState(false);
+  const [verified, setVerified] = useContext(VerificationContext);
   const configureCaptcha = () => {
     window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier(
       "sign-in-button",
@@ -95,6 +97,7 @@ const Login = () => {
           />
           <button type="submit">Submit</button>
         </form>
+        {verified && <Redirect to="/search" />}
       </div>
     </div>
   );

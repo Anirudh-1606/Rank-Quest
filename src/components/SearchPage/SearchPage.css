@@ -1,15 +1,16 @@
 .background {
-  background-color: #fafafa;
+  background-color: #f0f8ff;
   width: 100%;
   overflow: hidden;
 }
 .container {
-  width: 70%;
+  width: 75%;
   margin: 30px auto 0px auto;
   background-color: white;
   height: inherit;
   margin-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 15px;
+  padding-bottom: 30px;
 }
 .container h2 {
   padding-top: 20px;

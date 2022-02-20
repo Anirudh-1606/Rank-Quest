@@ -9,8 +9,8 @@ const Card = ({ src, title, description, destination }) => {
       <div className="info">
         <h3>{title}</h3>
         <p>{description}</p>
-        <Button variant="outlined" color="secondary">
-          Check now
+        <Button variant="contained" color="secondary" className="button">
+          Check
         </Button>
       </div>
     </div>

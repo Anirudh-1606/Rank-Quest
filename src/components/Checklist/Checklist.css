@@ -1,11 +1,11 @@
 .background__ {
   height: 95vh;
-  background-color: #fafafa;
+  background-color: #f0f8ff;
   width: 100%;
   overflow: hidden;
 }
 .container__ {
-  width: 70%;
+  width: 80%;
   margin: 30px auto 0px auto;
   background-color: white;
   height: 86vh;
