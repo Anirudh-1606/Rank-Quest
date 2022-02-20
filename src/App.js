@@ -23,7 +23,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/Rank-Quest">
+          <Route path="/Rank-Quest/">
             <Redirect to="/" />
           </Route>
           <Route path="/Login">
