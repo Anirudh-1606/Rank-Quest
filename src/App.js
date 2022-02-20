@@ -44,7 +44,7 @@ function App() {
           <Route path="/colleges">
             <Colleges />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/Rank-Quest">
             <Banner />
             <Category />
           </Route>
