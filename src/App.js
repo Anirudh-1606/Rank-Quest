@@ -10,7 +10,12 @@ import Colleges from "./components/Colleges/Colleges";
 import CollegeDetails from "./components/CollegeDetails/CollegeDetails";
 import Footer from "./components/Footer/Footer";
 import { VerificationProvider } from "./components/context/VerificationContext";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -18,6 +23,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path="/Rank-Quest">
+            <Redirect to="/" />
+          </Route>
           <Route path="/Login">
             <VerificationProvider>
               <Login />
