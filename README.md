@@ -5,6 +5,9 @@
 - Authentication and Results are detached due to hosting problems.\
 - For OTP authentication do clone the repo and check it out.
 
+Frontend:- Reactjs Framewrork
+Backend:- Google Firebase
+
 ### Demo Link:-
 [see here](https://anirudh-1606.github.io/Rank-Quest)
 
