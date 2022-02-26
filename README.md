@@ -5,7 +5,7 @@
 - Authentication and Results are detached due to hosting problems.\
 - For OTP authentication do clone the repo and check it out.
 
-Frontend:- Reactjs Framewrork
+Frontend:- Reactjs Framewrork\
 Backend:- Google Firebase
 
 ### Demo Link:-
